@@ -7,5 +7,6 @@ RUN pip install Django==1.6
 RUN pip install south
 RUN pip install uwsgi
 RUN pip install pillow
+RUN pip install quantities
 
 #need to open up ports for database traffic
